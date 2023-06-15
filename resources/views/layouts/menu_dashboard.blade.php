@@ -90,6 +90,6 @@
 @if ($user->ROLE_PEGAWAI == 'Admin')
     <a href="{{ url('dashboard/instructor') }}" class="list-group-item list-group-item-action py-2 ripple text-white"
         style="background-color: {{ request()->is('dashboard/instructor') || request()->is('dashboard/create-instructor') || request()->is('dashboard/search-instructor') || request()->is('dashboard/edit-instructor/*') ? '#04293A' : '#1E5F74' }}">
-        <i class="fas fa-solid fa-person-walking fa-fw me-3"></i><span>Instructorrrr</span>
+        <i class="fas fa-solid fa-person-walking fa-fw me-3"></i><span>Manage Instructor</span>
     </a>
 @endif
